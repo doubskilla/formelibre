@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f5f1e9">
+<title>Forme Libre — Des assises à votre image</title>
+<meta name="description" content="Canapés et fauteuils personnalisables, fabriqués à Dakar. Découvrez Forme Libre, projet fictif de mobilier contemporain.">
+<link rel="preload" href="assets/hero.webp" as="image" fetchpriority="high">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+<script src="reveal.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#accueil">Aller au contenu</a>
+<div class="page">
+<header class="header">
+<a class="brand" href="#accueil" aria-label="Forme Libre, accueil"><img class="brand-symbol" src="assets/logo.png" width="44" height="44" alt=""><span class="brand-name">forme libre.</span></a>
+<nav class="desktop-nav" aria-label="Navigation principale">
+<a class="nav-link" href="#modeles">Les modèles</a>
+<a class="nav-link" href="#personnalisation">Personnalisation</a>
+<a class="nav-link" href="#showroom">Le showroom</a>
+</nav>
+<button class="button header-cta" data-open="contact"><span>Demander un devis</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
+<button class="menu-toggle" aria-controls="navigation-menu" aria-expanded="false" aria-label="Ouvrir le menu"><span class="menu-icon" aria-hidden="true"></span></button>
+<div id="navigation-menu" class="navigation-menu" aria-hidden="true" inert>
+<div class="menu-clip"><div class="menu-content">
+<nav aria-label="Navigation tablette et mobile">
+<a href="#modeles">Les modèles</a>
+<a href="#personnalisation">Personnalisation</a>
+<a href="#showroom">Le showroom</a>
+</nav>
+<button class="button" data-open="contact"><span>Demander un devis</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
+</div></div></div>
+</header>
+
+<main>
+<section id="accueil" class="hero" aria-label="Bienvenue chez Forme Libre">
+<div class="hero-copy">
+<h1><span class="title-line"><span>Faites place</span></span><span class="title-line title-middle"><span>à <em>votre</em><span class="fabric" role="img" aria-label="Détail du tissu rouille"></span></span></span><span class="title-line"><span>façon de vivre.</span></span></h1>
+<p class="intro">Canapés et fauteuils personnalisables,<br class="desktop-break"> fabriqués à Dakar.</p>
+<a class="button discover" href="#modeles"><span>Découvrir les modèles</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
+</div>
+<div class="hero-visual">
+<div class="image-frame"><img class="hero-image" src="assets/hero.webp" width="1536" height="1024" alt="Canapé Soma rouille aux accoudoirs arrondis dans un intérieur lumineux" fetchpriority="high"></div>
+<button class="price-tag" data-open="model" aria-label="Découvrir Soma, à partir de 390 000 FCFA"><span class="product-name">Soma</span><span class="price-prefix">À partir de</span><span class="price">390 000 <span>FCFA</span></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></button>
+</div>
+</section>
+<section id="modeles" class="collection" aria-labelledby="collection-title" tabindex="-1">
+<div class="collection-layout">
+<div class="collection-primary">
+<div class="collection-intro reveal"><div class="collection-heading"><h2 id="collection-title">À chacun<br>sa place.</h2><span class="collection-swatch" aria-hidden="true"><img src="assets/collection-olive-wood.webp" width="960" height="640" loading="lazy" decoding="async" alt=""></span></div><p class="collection-description">Des assises à personnaliser, pour trouver votre place.</p></div>
+<button class="collection-product reveal" data-product="soma" aria-label="Découvrir Soma, à partir de 390 000 FCFA">
+<span class="collection-image"><picture><source media="(min-width: 761px)" srcset="assets/soma-hd.webp"><img src="assets/soma-hd.webp" srcset="assets/soma-hd-640.webp 640w, assets/soma-hd-960.webp 960w, assets/soma-hd.webp 1536w" sizes="(max-width: 760px) calc(100vw - 44px), 46vw" width="1536" height="1024" loading="lazy" decoding="async" alt="Canapé compact beige, accoudoirs arrondis et pieds en bois."></picture></span>
+<span class="collection-caption"><span class="collection-name">Soma</span><span class="collection-price">À partir de <span>390 000&nbsp;FCFA</span></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></span>
+</button>
+</div>
+<div class="collection-secondary">
+<button class="collection-product reveal" data-product="ligne" aria-label="Découvrir Ligne, à partir de 580 000 FCFA">
+<span class="collection-image"><picture><source media="(min-width: 761px)" srcset="assets/ligne-hd.webp"><img src="assets/ligne-hd.webp" srcset="assets/ligne-hd-640.webp 640w, assets/ligne-hd-960.webp 960w, assets/ligne-hd.webp 1536w" sizes="(max-width: 760px) calc(100vw - 44px), 46vw" width="1536" height="1024" loading="lazy" decoding="async" alt="Canapé olive aux accoudoirs fins, sur une structure en bois."></picture></span>
+<span class="collection-caption"><span class="collection-name">Ligne</span><span class="collection-price">À partir de <span>580 000&nbsp;FCFA</span></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></span>
+</button><button class="collection-product reveal" data-product="angle" aria-label="Découvrir Angle, à partir de 890 000 FCFA">
+<span class="collection-image"><picture><source media="(min-width: 761px)" srcset="assets/angle-hd.webp"><img src="assets/angle-hd.webp" srcset="assets/angle-hd-640.webp 640w, assets/angle-hd-960.webp 960w, assets/angle-hd.webp 1536w" sizes="(max-width: 760px) calc(100vw - 44px), 46vw" width="1536" height="1024" loading="lazy" decoding="async" alt="Canapé beige avec une méridienne à droite de l’image."></picture></span>
+<span class="collection-caption"><span class="collection-name">Angle</span><span class="collection-price">À partir de <span>890 000&nbsp;FCFA</span></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></span>
+</button>
+</div>
+</div>
+<div class="collection-action reveal"><button class="button" data-catalog><span>Voir les 9 modèles</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button></div>
+</section>
+<section id="personnalisation" class="personalisation" aria-labelledby="personal-title" tabindex="-1">
+<div class="personal-intro reveal">
+<h2 id="personal-title"><span>Le modèle vous plaît.</span><span>Faites-le vôtre.</span></h2>
+<p class="personal-description">Dimensions, matières, finitions : explorons ensemble les possibilités pour votre intérieur.</p>
+</div>
+<div class="personal-lines">
+<div class="personal-row reveal">
+<h3 class="personal-words"><span>Votre</span> <span>espace.</span></h3>
+<figure class="personal-photo personal-sketch"><img src="assets/personal-sketch-transparent.png" width="1536" height="1024" loading="lazy" decoding="async" alt="Dessin au trait du canapé Soma avec ses lignes de construction."></figure>
+</div>
+<div class="personal-row personal-row-material reveal">
+<h3 class="personal-words"><span>Votre</span> <em>matière.</em></h3>
+<figure class="personal-photo personal-material"><img src="assets/personal-material.webp" width="1536" height="1024" loading="lazy" decoding="async" alt="Inspiration matières : tissus rouille, ivoire et olive superposés."></figure>
+</div>
+<div class="personal-row reveal">
+<h3 class="personal-words"><span>Vos</span> <span>finitions.</span></h3>
+<figure class="personal-photo personal-finish"><img src="assets/personal-finish.webp" width="1536" height="1024" loading="lazy" decoding="async" alt="Détail du revêtement beige et du pied en bois du canapé Soma."></figure>
+</div>
+</div>
+<div class="personal-action reveal">
+<button class="button" data-open="contact"><span>Parlons de mes envies</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
+<p>Personnalisation selon les possibilités de chaque modèle.</p>
+</div>
+</section>
+<section id="commande" class="process" aria-labelledby="process-title" tabindex="-1">
+<div class="process-heading reveal">
+<h2 id="process-title">De votre idée<br>à votre <em>salon.</em></h2>
+<p>Un échange, des choix,<br>puis le temps de bien faire.</p>
+</div>
+<div class="process-map">
+<svg class="process-route reveal" viewBox="0 0 1200 110" preserveAspectRatio="none" aria-hidden="true"><path class="route-base" d="M0 0H270C335 0 335 55 400 55H670C735 55 735 110 800 110H1200"/><path class="route-ink" pathLength="1" d="M0 0H270C335 0 335 55 400 55H670C735 55 735 110 800 110H1200"/></svg>
+<ol class="process-steps">
+<li class="process-step reveal"><span class="step-number" aria-hidden="true">01</span><div class="step-copy"><h3>Votre projet</h3><p>Un modèle, vos dimensions, vos envies. Nous échangeons pour préparer votre devis.</p></div></li>
+<li class="process-step reveal"><span class="step-number" aria-hidden="true">02</span><div class="step-copy"><h3>Les détails validés</h3><p>Nous confirmons les options et le devis. Un acompte de <strong>60&nbsp;%</strong> est demandé après acceptation.</p></div></li>
+<li class="process-step reveal"><span class="step-number" aria-hidden="true">03</span><div class="step-copy"><h3>La fabrication</h3><p>Généralement <strong>3 à 5 semaines</strong> après validation de la commande, selon le produit et les matériaux.</p></div></li>
+</ol>
+</div>
+</section>
+<section id="showroom" class="showroom" aria-labelledby="showroom-title" tabindex="-1">
+<div class="showroom-intro reveal">
+<h2 id="showroom-title">Votre prochain canapé <br>mérite un essai.</h2>
+<p class="showroom-description">Comparez le confort et les matières au showroom. Nous vous accompagnons dans votre choix à Ouakam, Dakar, sur rendez-vous.</p>
+</div>
+<div class="showroom-visual reveal">
+<figure class="showroom-photo"><img src="assets/showroom-1774.webp" srcset="assets/showroom-768.webp 768w, assets/showroom-1200.webp 1200w, assets/showroom-1774.webp 1774w" sizes="(max-width:760px) calc(100vw - 44px), (max-width:1728px) 93vw, 1600px" width="1774" height="887" loading="lazy" decoding="async" alt="Ambiance illustrative : canapés olive et rouille, table en bois et échantillons de tissus dans un intérieur lumineux."></figure>
+</div>
+<div class="showroom-action reveal"><button class="button" data-open="visit"><span>Planifier ma visite</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button></div>
+</section>
+<section id="projet" class="contact-section" aria-labelledby="contact-title" tabindex="-1">
+<picture class="contact-picture" aria-hidden="true"><source media="(max-width:760px)" srcset="assets/contact-ligne-960.webp"><img src="assets/contact-ligne-1536.webp" width="1536" height="1024" loading="lazy" decoding="async" alt=""></picture>
+<div class="contact-copy reveal">
+<h2 id="contact-title">Quel canapé avez-vous <br>en tête&nbsp;?</h2>
+<p>Un modèle repéré, des dimensions à respecter ou simplement une idée : parlons de votre projet.</p>
+</div>
+<form id="project-form" class="contact-form reveal" method="dialog" aria-labelledby="contact-title" aria-describedby="project-status">
+<fieldset class="model-picker"><legend>Un modèle vous plaît&nbsp;?</legend>
+<div class="model-options">
+<label class="model-option"><input type="radio" name="model" value="Soma"><span><img src="assets/soma-hd-640.webp" width="640" height="427" loading="lazy" alt=""><span>Soma</span></span></label>
+<label class="model-option"><input type="radio" name="model" value="Ligne"><span><img src="assets/ligne-hd-640.webp" width="640" height="427" loading="lazy" alt=""><span>Ligne</span></span></label>
+<label class="model-option"><input type="radio" name="model" value="Angle"><span><img src="assets/angle-hd-640.webp" width="640" height="427" loading="lazy" alt=""><span>Angle</span></span></label>
+</div>
+<label class="model-unsure"><input type="radio" name="model" value="À définir"> Je souhaite être conseillé</label>
+</fieldset>
+<div class="contact-details">
+<div class="contact-field"><label for="project-name">Votre nom</label><input id="project-name" name="name" autocomplete="name" required maxlength="120" placeholder="Prénom et nom"></div>
+<div class="contact-field"><label for="project-contact">Téléphone ou e-mail</label><input id="project-contact" name="contact" required maxlength="180" placeholder="Pour vous répondre"></div>
+</div>
+<div class="contact-field"><label for="project-message">Votre pièce, vos envies <span class="field-optional">(facultatif)</span></label><textarea id="project-message" name="message" rows="2" maxlength="3000" placeholder="Une dimension, une matière, une envie particulière…"></textarea></div>
+<button class="button" type="submit"><span>Demander mon devis</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></button>
+<p id="project-status" class="contact-status" role="status">Démonstration : aucune demande ne sera envoyée.</p>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<div class="footer-main">
+<a class="footer-logo" href="#accueil" aria-label="Forme Libre, retour à l’accueil"><span class="footer-symbol" aria-hidden="true"></span></a>
+<nav class="footer-nav" aria-label="Navigation de pied de page"><a href="#modeles">Modèles</a><a href="#personnalisation">Personnalisation</a><a href="#showroom">Showroom</a></nav>
+<a href="#accueil" class="footer-top">Haut de page <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20V4m-6 6 6-6 6 6"/></svg></a>
+</div>
+<p class="footer-wordmark">forme libre.</p>
+<div class="footer-bottom"><span>Projet fictif · NextStep.</span><button type="button" data-legal>Mentions légales</button></div>
+</footer>
+</div>
+
+<dialog id="detail" aria-labelledby="panel-title"><button class="close" aria-label="Fermer">×</button><div id="dialog-content"></div></dialog>
+</body></html>
